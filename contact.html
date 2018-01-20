@@ -5,46 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="./assets/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 <body>
-    <header>Thomas Seaman</header>
     
-    <nav><a href="index.html">About</a> | <a href="portfolio.html">Portfolio</a> | <a href="contact.html">Contact</a></nav>
+        <div class="navbox">
     
+                <header class="header">Thomas Seaman</header>
+                
+                    <nav><a href="index.html">About</a> | <a href="portfolio.html">Portfolio</a> | <a href="contact.html">Contact</a></nav>
+            
+            </div>
+
+<div class="contactbox">
     <article class="articlecontact">Contact</article>    
     
     <form class="form">
         <label id="name">Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <input type="text" id="inputfirstname" name="firstname" placeholder="Your name..">
+        
         <label id="email">Email</label>
-        <input type="text" id="fname" name="firstname" placeholder="example@google.com">
+        <input type="text" id="inputemail" name="email" placeholder="example@google.com">
+        
         <label id="message">Message</label>
-        <input type="text" id="fname" name="firstname">
+        <input type="text" id="inputmessage" name="message">
     </form>
     
-    <aside class="aside">Connect with Me</aside>
-    
-    <p id="githubimage">
-    
-        <a href="https://github.com/ThomasSeaman" target="_blank">
-        <img src="assets/images/githubimage.png" alt="gitlab" height="50" width="50">
-        </a>
-    </p>
-            
-    <p id="linkedinimage">
-        <a href="https://www.linkedin.com/in/thomas-seaman-274a3850/" target="_blank">
-        <img src="assets/images/linkedinimage.png" alt="linkedin" height="50" width="50">
-        </a>
-    </p>
+</div>
+
+    <div class="connectbox">
+            <aside class="aside">Connect with Me</aside>
         
-    <p id="stackoverflowimage">
-        <a href="https://stackexchange.com/users/12590295/tseaman" target="_blank">
-        <img src="assets/images/stackoverflowimage.png" alt="stackoverflow" height="50" width="50">
-        </a>
-    </p>
+            <p id="githubimage">
+                <a href="https://github.com/ThomasSeaman" target="_blank">
+                <img src="assets/images/githubimage.png" alt="gitlab" height="50" width="50">
+                </a>
+            </p>
+        
+            <p id="linkedinimage">
+                <a href="https://www.linkedin.com/in/thomas-seaman-274a3850/" target="_blank">
+                <img src="assets/images/linkedinimage.png" alt="linkedin" height="50" width="50">
+                </a>
+            </p>
     
-    <footer class="footer"> &copy; 2018 Thomas Seaman</footer>
+            <p id="stackoverflowimage">
+                <a href="https://stackexchange.com/users/12590295/tseaman" target="_blank">
+                <img src="assets/images/stackoverflowimage.png" alt="stackoverflow" height="50" width="50">
+                </a>
+            </p>
+    
+        </div>
+    
+    <footer class="footer"> &copy; Copyright 2018 Thomas Seaman</footer>
 
 </body>
 </html>
