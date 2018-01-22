@@ -30,7 +30,7 @@ nav{
 }
 
 
-.articlebox{
+.portfoliobox{
     background-color:#ffffff;
     width:650px;
     float:left;
@@ -38,39 +38,87 @@ nav{
     margin-left:286px;
     margin-top:30px;
     margin-bottom:33px;
+    height:734px;
 }
 
-.figureaboutme{
-    background-color:#ffffff;
-    text-align:left;
-}
-
-.p1{
-    width: 379px;
+.articleportfolio{
+    color: #4aaaa5;
+    clear: both;
     float: left;
-    margin-left: 20px;
-    margin-top: -2px;
-    font:#777777;
+    width: 650px;
+    padding: 33px;
+    text-align: left;
+    font-size: 25px;
 }
 
-.p2{
-    float:left;
-    font:#777777;
+hr{
+    width:593px;
+    color:gray;
 }
 
-.headshotimage{
-    clear: both;
+.businessimage{
     float:left;
-    margin-left:33px;
+    padding-top:37px;
+    padding-right:45px;
+    padding-left:28px;
 }
-.articleaboutme{
-    color:#4aaaa5;
-    clear: both;
+
+#example1{
+    background-color: #4aaaaf;
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: -77px;
+    padding: 20px;
+    z-index: 2;
+    position: relative;
+}
+        
+.cityimage{
     float:left;
-    width:476px;
-    padding:33px;
-    text-align:left;
-    font-size:25px;
+    padding-top:37px;
+}
+       
+#example2{
+    background-color: #4aaaaf;
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: -77px;
+    padding: 20px;
+    z-index: 2;
+    position: relative;
+}
+        
+   
+.motocrossimage{
+    float:left;
+    padding-top:37px;
+    padding-right:45px;
+    padding-left:28px;
+}
+      
+#example3{
+    background-color: #4aaaaf;
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: -77px;
+    padding: 20px;
+    z-index: 2;
+    position: relative;
+}     
+       
+.natureimage{
+    float:left;
+    padding-top:37px;
+}
+      
+#example4{
+    background-color: #4aaaaf;
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: -77px;
+    padding: 20px;
+    z-index: 2;
+    position: relative;
 }
 
 .connectbox{
@@ -107,25 +155,6 @@ nav{
     clear:both;
     line-height: 59px;
     vertical-align: middle;
-}
-
-
-
-
-
-.aside{
-    background-color:#ffffff;
-}
-
-
-
-
-.contactbox{
-    background-color:#ffffff;
-}
-
-.portfoliobox{
-    background-color:#ffffff;
 }
 
 footer{
