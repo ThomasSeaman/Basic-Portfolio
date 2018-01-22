@@ -40,6 +40,11 @@ nav{
     margin-bottom:33px;
 }
 
+hr{
+    width:583px;
+    color:gray;
+}
+
 .figureaboutme{
     background-color:#ffffff;
     text-align:left;
